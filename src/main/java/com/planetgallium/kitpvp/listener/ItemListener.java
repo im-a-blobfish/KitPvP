@@ -427,7 +427,6 @@ public class ItemListener implements Listener {
 	}
 
 	private void hitByEgg(Player damagedPlayer, Egg egg) {
-		if (Toolkit.hasMatchingDisplayName(egg.getItem(), abilities.fetchString("Abilities.Trickster.Item.Name"))) {
 			if (Toolkit.inArena(damagedPlayer) && arena.getKits().playerHasKit(damagedPlayer.getName())) {
 
 				if (egg.getShooter() instanceof Player) {
@@ -457,7 +456,6 @@ public class ItemListener implements Listener {
 					}
 				}
 			}
-		}
 	}
 
 	@EventHandler
