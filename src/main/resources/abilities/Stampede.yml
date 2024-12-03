@@ -11,14 +11,14 @@ Sound:
   Volume: 1
 Effects:
   SPEED:
-    Level: 3
+    Amplifier: 3
     Duration: 5
   REGENERATION:
-    Level: 3
+    Amplifier: 3
     Duration: 5
   INCREASE_DAMAGE:
-    Level: 2
+    Amplifier: 2
     Duration: 5
   NIGHT_VISION:
-    Level: 1
+    Amplifier: 1
     Duration: 5
