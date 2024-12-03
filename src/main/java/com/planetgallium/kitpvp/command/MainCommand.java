@@ -502,6 +502,8 @@ public class MainCommand implements CommandExecutor {
 
         p.getInventory().setArmorContents(null);
         p.getInventory().clear();
+        p.setItemOnCursor(null);
+        p.getOpenInventory().getTopInventory().clear();
 
         Toolkit.setMaxHealth(p, 20);
         p.setHealth(20.0);
